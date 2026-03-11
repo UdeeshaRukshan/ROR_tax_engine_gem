@@ -10,13 +10,13 @@ Gem::Specification.new do |spec|
 
   spec.summary = "A Ruby gem for calculating US sales tax with live API rate lookup and caching."
   spec.description = "TaxCalculatorGem fetches live sales tax rates from the Washington State DOR API, supports manual rate overrides, per-item cart calculation, and pluggable in-memory or Redis caching."
-  spec.homepage = "https://github.com/udeesharukshan/tax_calculator_gem"
+  spec.homepage = "https://github.com/UdeeshaRukshan/ROR_tax_engine_gem"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 3.2.0"
   spec.metadata["allowed_push_host"] = "https://rubygems.org"
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "https://github.com/udeesharukshan/tax_calculator_gem/tree/main"
-  spec.metadata["changelog_uri"] = "https://github.com/udeesharukshan/tax_calculator_gem/blob/main/CHANGELOG.md"
+  spec.metadata["source_code_uri"] = "https://github.com/UdeeshaRukshan/ROR_tax_engine_gem/tree/main"
+  spec.metadata["changelog_uri"] = "https://github.com/UdeeshaRukshan/ROR_tax_engine_gem/blob/main/CHANGELOG.md"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
