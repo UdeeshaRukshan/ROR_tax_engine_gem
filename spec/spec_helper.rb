@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require "my_public_gem"
+require "tax_calculator_gem"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure

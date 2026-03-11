@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
-require_relative "lib/my_public_gem/version"
+require_relative "lib/tax_engine/version"
 
 Gem::Specification.new do |spec|
-  spec.name = "my_public_gem"
-  spec.version = MyPublicGem::VERSION
+  spec.name = "tax_calculator_gem"
+  spec.version = TaxCalculatorGem::VERSION
   spec.authors = ["udeesharukshan"]
   spec.email = ["it21807480@my.sliit.lk"]
 
@@ -32,6 +32,7 @@ Gem::Specification.new do |spec|
 
   # Uncomment to register a new dependency of your gem
   # spec.add_dependency "example-gem", "~> 1.0"
+  spec.add_dependency "nokogiri"
 
   # For more information and examples about making a new gem, check out our
   # guide at: https://bundler.io/guides/creating_gem.html
